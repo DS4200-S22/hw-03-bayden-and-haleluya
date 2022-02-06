@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#images {
+  border: 5px solid black;
+}
+
+ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+li {
+  text-align: center;
+}
+
+/* #resources {
+  align-items: center;
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex: auto;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  align-items: center;
+}
+
+.shapes {
+  display: flex;
+  flex: auto;
+  flex-basis: fit-content;
+}
