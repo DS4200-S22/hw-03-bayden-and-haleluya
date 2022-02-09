@@ -8,7 +8,7 @@ h2 {
 }
 
 ul {
-  text-align: left;
+  text-align: center;
   list-style-position: inside;
 }
 
@@ -35,11 +35,12 @@ li {
 }
 
 img {
-  width: 600px;
+  width: 400px;
   height: auto;
 }
 
 p {
-  width: 595px;
+  width: 390px;
   text-align: center;
+  padding: 5 5 5 5;
 }
