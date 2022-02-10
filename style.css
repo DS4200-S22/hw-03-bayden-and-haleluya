@@ -16,12 +16,6 @@ li {
   text-align: center;
 }
 
-.shapes {
-  display: flex;
-  flex: auto;
-  flex-basis: fit-content;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -43,4 +37,28 @@ p {
   width: 390px;
   text-align: center;
   padding: 5 5 5 5;
+}
+
+.shapes {
+  width: 100%;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.rectangles {
+  fill: rgb(106, 217, 231);
+}
+
+.rectangles:hover {
+  fill: rgb(8, 75, 151);
+}
+
+.circles {
+  fill: rgb(158, 218, 69);
+}
+
+.circles:hover {
+  fill: green;
 }
